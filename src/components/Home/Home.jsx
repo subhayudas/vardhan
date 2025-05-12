@@ -1,6 +1,5 @@
 import "./home.css";
 import A from "../img/bg.mp4";
-import B from "../img/logo.png";
 import React from "react";
 
 const Home = () => {
@@ -11,7 +10,7 @@ const Home = () => {
         <div className="h-main">
         <div className="logo">Vardhan & Co.</div>
         <nav className="nav-links">
-          <button className="Button">Practice Areas</button>
+          <button className="Button ">Practice Areas</button>
           <button className="Button">Attorneys</button>
           <button className="Button">About Us</button>
           <button className="Button">Resources</button>
@@ -27,9 +26,7 @@ const Home = () => {
         <button className="Button-view">Free Consultation</button>
         </div>
         <div className="date">{date}</div>
-        <div className="company">
-          <img src={B} alt="Vardhan & Co. Logo" className="ck" />
-        </div>
+        
 
         <video loop muted autoPlay className="backdrop">
         <source

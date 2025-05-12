@@ -51,7 +51,7 @@
 	border: 2px dotted white;
 	display: inline-block;
 	cursor: pointer;
-	color: white;
+	color: black;
     font-family: "nanu";
 	font-size: 1.1vw;
 	padding: 5px 10px;
@@ -79,7 +79,7 @@
 	border: 2px dotted white;
 	display: inline-block;
 	cursor: pointer;
-	color: white;
+	color: black;
     font-family: "nanu";
 	font-size: 1.1vw;
 	padding: 5px 10px;
@@ -118,7 +118,7 @@
 	border: 2px dotted white;
 	display: inline-block;
 	cursor: pointer;
-	color: white;
+	color: black;
     font-family: "nanu";
 	font-size: 1.1vw;
 	padding: 20px 15px;
