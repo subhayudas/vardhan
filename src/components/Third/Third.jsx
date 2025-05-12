@@ -1,6 +1,5 @@
 import "./third.css";
 import C from "../img/volvo.jpg";
-import E from "../img/drink.jpg";
 import AdityaImg from "../img/aditya.png";
 import HimangiImg from "../img/himangi.png";
 import React from "react";
@@ -33,7 +32,7 @@ const Third = () => {
           <h1 className="title-1">Priya Sharma</h1>
           <p className="des-1">Associate - Criminal Defense & Immigration</p>
           <div className="sub-rec-1">
-              <img src={E} alt="Priya Sharma"  className="picdrop"/>
+              <img src={C} alt="Priya Sharma"  className="picdrop"/>
           </div>
       </div>
       <div className="oval-2">
