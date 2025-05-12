@@ -1,5 +1,6 @@
 import "./five.css";
-
+import Pic1 from "../img/pic1.jpg";
+import Pic2 from "../img/pic2.jpg";
 import React from "react";
 
 const Five = () => {
@@ -14,9 +15,11 @@ const Five = () => {
           </p>
           <div className="cards">
               <div className="card-head">Understanding Corporate Liability: A Guide for Business Owners</div>
+              <img src={Pic1} alt="Corporate Liability" className="card-image" />
           </div>
           <div className="cards-2">
               <div className="card-head-2">Family Law: Navigating Child Custody Arrangements</div>
+              <img src={Pic2} alt="Family Law" className="card-image" />
           </div>
           <div className="cards-3">
               <div className="card-head">Intellectual Property Rights in the Digital Age</div>
