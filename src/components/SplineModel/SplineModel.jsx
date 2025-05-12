@@ -31,7 +31,7 @@ const SplineModel = () => {
         </div>
 
         <div className="spline-container">
-          <spline-viewer url="https://prod.spline.design/ScA4ABeVnwLR0ONi/scene.splinecode"></spline-viewer>
+        <spline-viewer url="https://prod.spline.design/ScA4ABeVnwLR0ONi/scene.splinecode"></spline-viewer>
         </div>
       </div>
     </div>
