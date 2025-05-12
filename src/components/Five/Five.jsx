@@ -1,6 +1,8 @@
 import "./five.css";
 import Pic1 from "../img/pic1.jpg";
 import Pic2 from "../img/pic2.jpg";
+import Pic3 from "../img/pic3.jpg";
+import Pic4 from "../img/pic4.jpg";
 import React from "react";
 
 const Five = () => {
@@ -23,9 +25,11 @@ const Five = () => {
           </div>
           <div className="cards-3">
               <div className="card-head">Intellectual Property Rights in the Digital Age</div>
+              <img src={Pic3} alt="Corporate Liability" className="card-image" />
           </div>
           <div className="cards-4">
               <div className="card-head-2">Real Estate Transactions: Legal Considerations</div>
+              <img src={Pic4} alt="Corporate Liability" className="card-image" />
           </div>
           <div className="cards-5"></div>
           <div className="cards-6"></div>

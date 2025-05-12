@@ -6,6 +6,7 @@ import React from "react";
 const Home = () => {
   const current = new Date();
   const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
+
   return <div className="h">
         <div className="h-main">
         <div className="logo">Vardhan & Co.</div>
@@ -29,6 +30,7 @@ const Home = () => {
         <div className="company">
           <img src={B} alt="Vardhan & Co. Logo" className="ck" />
         </div>
+
         <video loop muted autoPlay className="backdrop">
         <source
           src={A}

@@ -1,0 +1,145 @@
+.spline-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #f8f8f8;
+    font-family: "bord";
+    overflow: hidden;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.spline-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.spline-title {
+    font-size: 5vw;
+    color: #333;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.spline-divider {
+    width: 100px;
+    height: 3px;
+    background: #333;
+    margin: 0 auto;
+}
+
+.spline-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100% - 100px);
+    position: relative;
+}
+
+.spline-content {
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    text-align: left;
+}
+
+.spline-description {
+    font-family: "nanu";
+    font-size: 1.2vw;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.spline-instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.instruction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.instruction-number {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.5;
+}
+
+.instruction-text {
+    font-family: "nanu";
+    font-size: 1.1vw;
+    color: #555;
+}
+
+.spline-container {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.spline-container spline-viewer {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: -10%;
+    left: 0;
+}
+
+/* Hide the Spline logo by cropping the bottom */
+.spline-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; /* Adjust this value to crop more or less of the bottom */
+    background: linear-gradient(to bottom, transparent, #f8f8f8);
+    z-index: 3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .spline-content-wrapper {
+        flex-direction: column;
+    }
+
+    .spline-content, .spline-container {
+        width: 100%;
+    }
+
+    .spline-content {
+        padding: 20px 0;
+    }
+
+    .spline-container {
+        height: 60%;
+    }
+
+    .spline-title {
+        font-size: 8vw;
+    }
+
+    .spline-description, .instruction-text {
+        font-size: 3vw;
+    }
+
+    .instruction-number {
+        font-size: 4vw;
+    }
+}

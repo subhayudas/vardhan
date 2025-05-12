@@ -4,6 +4,7 @@ import Four from './components/Four/Four';
 import Home from './components/Home/Home';
 import Second from './components/Second/Second';
 import Third from './components/Third/Third';
+import SplineModel from './components/SplineModel/SplineModel';
 
 function App() {
   return (
@@ -11,10 +12,11 @@ function App() {
      <Home/>
      <Second/>
      <Third/>
+     <SplineModel/>
      <Four/>
      <Five/>
-     <div class="noise"></div>
-     <div class="container"></div>
+     <div className="noise"></div>
+     <div className="container"></div>
     </div>
   );
 }

@@ -20,6 +20,7 @@
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    z-index: -1; /* Ensure the video is behind the Spline model */
 }
 
 .logo{
@@ -102,7 +103,7 @@
 }
 
 .view{
-    z-index: 1; 
+    z-index: 1;
     position: absolute;
     top: 85%;
     left: 50%;
@@ -130,7 +131,7 @@
 }
 
 .date{
-    z-index: 1; 
+    z-index: 1;
     position: absolute;
     top: 92%;
     left: 5%;
@@ -141,7 +142,7 @@
 }
 
 .company{
-    z-index: 1; 
+    z-index: 1;
     position: absolute;
     top: 92%;
     left: 95%;
@@ -155,3 +156,5 @@
     height: auto;
     width: 50px;
 }
+
+
