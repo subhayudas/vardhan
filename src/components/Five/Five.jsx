@@ -31,7 +31,7 @@ const Five = () => {
           <p className="digi">Schedule a consultation today</p>
           <h1 className="get-in">Contact Us</h1>
       </div>
-      <a href="" className="credit">Vardhan & Co. Law Firm  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;© 2023 All Rights Reserved</a>
+      <div className="credit">Vardhan & Co. Law Firm  &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;© 2023 All Rights Reserved</div>
   </div>;
 };
 

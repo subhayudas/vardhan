@@ -10,20 +10,20 @@ const Home = () => {
         <div className="h-main">
         <div className="logo">Vardhan & Co.</div>
         <nav className="nav-links">
-          <a href="#" class="Button">Practice Areas</a>
-          <a href="#" class="Button">Attorneys</a>
-          <a href="#" class="Button">About Us</a>
-          <a href="#" class="Button">Resources</a>
-          <a href="#" class="Button">Contact</a>
+          <button className="Button">Practice Areas</button>
+          <button className="Button">Attorneys</button>
+          <button className="Button">About Us</button>
+          <button className="Button">Resources</button>
+          <button className="Button">Contact</button>
         </nav>
         <nav className="langu">
-          <a href="#" class="Button">Call Now</a>
+          <button className="Button">Call Now</button>
         </nav>
         <div className="heading">Justice & <br />
         Excellence.
         </div>
         <div className="view">
-        <a href="#" class="Button-view">Free Consultation</a>
+        <button className="Button-view">Free Consultation</button>
         </div>
         <div className="date">{date}</div>
         <div className="company">
@@ -35,7 +35,7 @@ const Home = () => {
           type="video/mp4"
         />
        </video>
-         
+
         </div>
   </div>;
 };

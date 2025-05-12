@@ -27,7 +27,7 @@ const Four = () => {
        </video>
       </div>
       <div className="texxt-area">
-      <a href="#" class="Button-pos">Our Philosophy</a>
+      <button className="Button-pos">Our Philosophy</button>
       <p className="about-text">
       Our firm is built on the principles of trust, excellence, and client satisfaction. <br />
       We take pride in our ability to navigate complex legal challenges with precision <br />
