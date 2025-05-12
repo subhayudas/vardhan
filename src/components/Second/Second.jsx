@@ -17,8 +17,9 @@ const Second = () => {
           Criminal Defense, and Immigration Law. <br />
           <br />
           <br />
-          We approach each case with meticulous attention to detail <br />
-          and a commitment to achieving the best possible outcomes. <br />
+          We also do Media Law, 
+          Finance & Banking Law, Energy Law <br />
+          Defamation, Employment Law, nformation Technology Law. <br />
         </p>
       </div>
       <div className="oval">
